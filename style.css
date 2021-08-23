@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+
+body{
+  background-image: linear-gradient(rgb(254, 102, 125), rgb(255, 163, 117));
+  width: 100%;
+  height:100%;
+  font-family: 'Oswald', sans-serif;
+}
+header {
+  width: 100%;
+  margin-bottom: 70px;
+  color: #800000;
+  text-align: center;
+  
+
+}
+button {
+  cursor: pointer;
+}
+#search-bar {
+  width: 50%;
+  margin: auto;
+  
+}
+#search-input{
+  width:80%;
+  background-color: #ADD8E6;
+}
+#list-wrapper {
+  width: 70%;
+  margin: auto;
+  
+}
+#book-list {
+  
+
+  display: flex;
+  flex-direction: column;
+  
+}
+.book {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #800000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deleteBtn {
+  background: #800000;
+  color:white;
+  margin-right: 20px;
+}
+#addBtn {
+  background: #800000;
+  color:white;
+  margin-left: 0;
+  cursor: pointer;
+}
+#searchBtn {
+  background: #800000;
+  color:white;
+  margin-left: 0;
+}
+#add-bar {
+  width: 80%;
+  
+  margin: auto;
+  
+}
+#add-input {
+  background-color: #ADD8E6;
+  width: 90%;
+  margin-right: 0;
+}
+
+#tabs {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+ 
+}
+#tabs li {
+  border: 1px solid #800000 ;
+  background: #800000 ;
+  color:white;
+  margin-right: 10px ;
+
+  
+}
+.panel {
+  display: none;
+}
+.active {
+  display: initial;
+}
+
+

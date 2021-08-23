@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Book list</title>
+</head>
+<body>
+  
+    <header id="banner">
+      <h1>
+       Books List
+      </h1>
+  
+      <form id="search-bar">
+        <input id="search-input" type="text" placeholder="Search book ..">
+        <button id="searchBtn" type="submit"><i class="fa fa-search"></i></button>
+      </form>
+
+    </header>
+    <section id="list-wrapper">
+      <ul id="book-list">
+
+        <li class="book">the alchamist <button class="deleteBtn">Delete</button></li>
+        <li class="book">the four agreements <button class="deleteBtn">Delete</button></li>
+        <li class="book">the alchamist <button class="deleteBtn">Delete</button></li>
+        <li class="book">the alchamist <button class="deleteBtn">Delete</button></li>
+        
+    </ul>
+    <form id="add-bar">
+      <input type="checkbox" name="hide" id="hide">
+      <label for="hide">Hide books</label>
+      <input type="text" placeholder="Add book .." id="add-input">
+      <button id="addBtn" type="submit" value="Add">Add</button>
+    </form>
+
+    <div class="tabs-wrapper">
+      <ul id="tabs">
+        <li data-target="#About">About</li>
+        <li data-target="#Contact">Contact</li>
+      </ul> 
+    </div> 
+
+    <div class="panel active" id="About">
+      <p>info about us</p>
+    </div>
+    <div class="panel" id="Contact">
+      <p>contact us please</p>
+    </div>
+    </section>
+
+    
+  
+</body>
+<script src="./list.js">
+</script>
+</html>
